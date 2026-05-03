@@ -4,3 +4,9 @@ F:\Users\nout.plus\source\repos\Kundali.com\Kundali.com\x64\Debug\Kundali.com.vc
 F:\Users\nout.plus\source\repos\Kundali.com\Kundali.com\x64\Debug\Kundalicom.MyForm1.resources
 F:\Users\nout.plus\source\repos\Kundali.com\Kundali.com\x64\Debug\Kundalicom.MyForm2.resources
 F:\Users\nout.plus\source\repos\Kundali.com\Kundali.com\x64\Debug\Kundalicom.MyForm3.resources
+C:\Users\TEMUR\source\repos\Kundalik.Com.Main\Kundali.com\Kundali.com\x64\Debug\Kundali.com.vcxproj.AssemblyReference.cache
+C:\Users\TEMUR\source\repos\Kundalik.Com.Main\Kundali.com\Kundali.com\x64\Debug\Kundalicom.MyForm.resources
+C:\Users\TEMUR\source\repos\Kundalik.Com.Main\Kundali.com\Kundali.com\x64\Debug\Kundalicom.MyForm1.resources
+C:\Users\TEMUR\source\repos\Kundalik.Com.Main\Kundali.com\Kundali.com\x64\Debug\Kundalicom.MyForm2.resources
+C:\Users\TEMUR\source\repos\Kundalik.Com.Main\Kundali.com\Kundali.com\x64\Debug\Kundalicom.MyForm3.resources
+C:\Users\TEMUR\source\repos\Kundalik.Com.Main\Kundali.com\Kundali.com\x64\Debug\Kundali.com.vcxproj.GenerateResource.cache

@@ -48,7 +48,7 @@ namespace Kundalicom {
 	private: System::Windows::Forms::TabPage^ tabPage3;
 	private: System::Windows::Forms::TabPage^ tabPage4;
 	private: System::Windows::Forms::TabPage^ tabPage5;
-	private: System::Windows::Forms::Label^ label2;
+
 	private: System::Windows::Forms::Label^ label3;
 	private: System::Windows::Forms::DataGridView^ dataGridView1;
 	private: System::Windows::Forms::Label^ label5;
@@ -90,14 +90,13 @@ namespace Kundalicom {
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->dataGridView1 = (gcnew System::Windows::Forms::DataGridView());
 			this->tabPage2 = (gcnew System::Windows::Forms::TabPage());
-			this->label2 = (gcnew System::Windows::Forms::Label());
+			this->linkLabel1 = (gcnew System::Windows::Forms::LinkLabel());
 			this->tabControl1 = (gcnew System::Windows::Forms::TabControl());
 			this->tabPage3 = (gcnew System::Windows::Forms::TabPage());
 			this->tabPage4 = (gcnew System::Windows::Forms::TabPage());
 			this->tabPage5 = (gcnew System::Windows::Forms::TabPage());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
-			this->linkLabel1 = (gcnew System::Windows::Forms::LinkLabel());
 			this->tabPage1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
 			this->tabPage2->SuspendLayout();
@@ -175,7 +174,6 @@ namespace Kundalicom {
 			// tabPage2
 			// 
 			this->tabPage2->Controls->Add(this->linkLabel1);
-			this->tabPage2->Controls->Add(this->label2);
 			this->tabPage2->Location = System::Drawing::Point(4, 51);
 			this->tabPage2->Name = L"tabPage2";
 			this->tabPage2->Padding = System::Windows::Forms::Padding(3);
@@ -184,14 +182,15 @@ namespace Kundalicom {
 			this->tabPage2->Text = L"    Bosh sayifa";
 			this->tabPage2->UseVisualStyleBackColor = true;
 			// 
-			// label2
+			// linkLabel1
 			// 
-			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(91, 80);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(124, 42);
-			this->label2->TabIndex = 0;
-			this->label2->Text = L"label2";
+			this->linkLabel1->AutoSize = true;
+			this->linkLabel1->Location = System::Drawing::Point(1304, 130);
+			this->linkLabel1->Name = L"linkLabel1";
+			this->linkLabel1->Size = System::Drawing::Size(197, 42);
+			this->linkLabel1->TabIndex = 1;
+			this->linkLabel1->TabStop = true;
+			this->linkLabel1->Text = L"linkLabel1";
 			// 
 			// tabControl1
 			// 
@@ -260,16 +259,6 @@ namespace Kundalicom {
 			this->pictureBox1->Size = System::Drawing::Size(290, 166);
 			this->pictureBox1->TabIndex = 2;
 			this->pictureBox1->TabStop = false;
-			// 
-			// linkLabel1
-			// 
-			this->linkLabel1->AutoSize = true;
-			this->linkLabel1->Location = System::Drawing::Point(1304, 130);
-			this->linkLabel1->Name = L"linkLabel1";
-			this->linkLabel1->Size = System::Drawing::Size(197, 42);
-			this->linkLabel1->TabIndex = 1;
-			this->linkLabel1->TabStop = true;
-			this->linkLabel1->Text = L"linkLabel1";
 			// 
 			// MyForm2
 			// 

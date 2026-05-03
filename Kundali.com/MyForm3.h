@@ -48,7 +48,7 @@ namespace Kundalicom {
 	private: System::Windows::Forms::Label^ label4;
 	private: System::Windows::Forms::PictureBox^ pictureBox4;
 	private: System::Windows::Forms::Button^ button1;
-	private: System::Windows::Forms::Label^ label5;
+
 
 	protected:
 
@@ -80,7 +80,6 @@ namespace Kundalicom {
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox4 = (gcnew System::Windows::Forms::PictureBox());
 			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->panel1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->panel2->SuspendLayout();
@@ -234,25 +233,11 @@ namespace Kundalicom {
 			this->button1->Text = L"< orqaga";
 			this->button1->UseVisualStyleBackColor = false;
 			// 
-			// label5
-			// 
-			this->label5->AutoSize = true;
-			this->label5->BackColor = System::Drawing::Color::White;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label5->ForeColor = System::Drawing::Color::Blue;
-			this->label5->Location = System::Drawing::Point(891, 124);
-			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(101, 38);
-			this->label5->TabIndex = 31;
-			this->label5->Text = L"Login";
-			// 
 			// MyForm3
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1924, 1055);
-			this->Controls->Add(this->label5);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->panel4);
 			this->Controls->Add(this->panel2);
@@ -274,7 +259,6 @@ namespace Kundalicom {
 			this->panel4->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->EndInit();
 			this->ResumeLayout(false);
-			this->PerformLayout();
 
 		}
 #pragma endregion

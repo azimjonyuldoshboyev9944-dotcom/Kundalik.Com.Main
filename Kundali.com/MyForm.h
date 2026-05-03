@@ -45,8 +45,8 @@ namespace Kundalicom {
 	private: System::Windows::Forms::Button^ button4;
 	private: System::Windows::Forms::MaskedTextBox^ maskedTextBox1;
 	private: System::Windows::Forms::MaskedTextBox^ maskedTextBox2;
-	private: System::Windows::Forms::Label^ label4;
-	private: System::Windows::Forms::Label^ label5;
+
+
 	protected:
 
 	protected:
@@ -74,8 +74,6 @@ namespace Kundalicom {
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->maskedTextBox1 = (gcnew System::Windows::Forms::MaskedTextBox());
 			this->maskedTextBox2 = (gcnew System::Windows::Forms::MaskedTextBox());
-			this->label4 = (gcnew System::Windows::Forms::Label());
-			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// button1
@@ -149,13 +147,13 @@ namespace Kundalicom {
 			this->label3->AutoSize = true;
 			this->label3->BackColor = System::Drawing::Color::White;
 			this->label3->Cursor = System::Windows::Forms::Cursors::Default;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Palace Script MT", 72, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)),
+			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 72, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)),
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
 			this->label3->ForeColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(26)), static_cast<System::Int32>(static_cast<System::Byte>(32)),
 				static_cast<System::Int32>(static_cast<System::Byte>(74)));
 			this->label3->Location = System::Drawing::Point(1472, 174);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(479, 111);
+			this->label3->Size = System::Drawing::Size(790, 135);
 			this->label3->TabIndex = 7;
 			this->label3->Text = L"Kundalik com";
 			// 
@@ -195,32 +193,6 @@ namespace Kundalicom {
 			this->maskedTextBox2->Size = System::Drawing::Size(447, 61);
 			this->maskedTextBox2->TabIndex = 10;
 			// 
-			// label4
-			// 
-			this->label4->AutoSize = true;
-			this->label4->BackColor = System::Drawing::Color::White;
-			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label4->ForeColor = System::Drawing::Color::Blue;
-			this->label4->Location = System::Drawing::Point(1310, 174);
-			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(101, 38);
-			this->label4->TabIndex = 11;
-			this->label4->Text = L"Login";
-			// 
-			// label5
-			// 
-			this->label5->AutoSize = true;
-			this->label5->BackColor = System::Drawing::Color::White;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->label5->ForeColor = System::Drawing::Color::Blue;
-			this->label5->Location = System::Drawing::Point(1353, 452);
-			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(101, 38);
-			this->label5->TabIndex = 12;
-			this->label5->Text = L"Login";
-			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -229,8 +201,6 @@ namespace Kundalicom {
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1924, 1055);
-			this->Controls->Add(this->label5);
-			this->Controls->Add(this->label4);
 			this->Controls->Add(this->maskedTextBox2);
 			this->Controls->Add(this->maskedTextBox1);
 			this->Controls->Add(this->button4);

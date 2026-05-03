@@ -1,3 +1,11 @@
-﻿  Kundali.com.cpp
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  Kundali.com.cpp
+  MyForm.cpp
+  MyForm1.cpp
+  MyForm2.cpp
+  MyForm3.cpp
+  Generating Code...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Kundali.com.vcxproj -> F:\Users\nout.plus\source\repos\Kundali.com\x64\Debug\Kundali.com.exe
+  Kundali.com.vcxproj -> C:\Users\TEMUR\source\repos\Kundalik.Com.Main\Kundali.com\x64\Debug\Kundali.com.exe

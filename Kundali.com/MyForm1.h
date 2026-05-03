@@ -80,7 +80,7 @@ namespace Kundalicom {
     private: System::Windows::Forms::TabPage^ tabPage1;
     private: System::Windows::Forms::TabPage^ tabPage2;
     private: System::Windows::Forms::TabPage^ tabPage3;
-    private: System::Windows::Forms::Label^ label19;
+
 
 	private:
 		/// <summary>
@@ -136,7 +136,6 @@ namespace Kundalicom {
             this->tabPage1 = (gcnew System::Windows::Forms::TabPage());
             this->tabPage2 = (gcnew System::Windows::Forms::TabPage());
             this->tabPage3 = (gcnew System::Windows::Forms::TabPage());
-            this->label19 = (gcnew System::Windows::Forms::Label());
             this->tabControl1->SuspendLayout();
             this->tabPage1->SuspendLayout();
             this->tabPage2->SuspendLayout();
@@ -679,26 +678,12 @@ namespace Kundalicom {
             this->tabPage3->Text = L"       O\'qtuvchi      ";
             this->tabPage3->UseVisualStyleBackColor = true;
             // 
-            // label19
-            // 
-            this->label19->AutoSize = true;
-            this->label19->BackColor = System::Drawing::Color::White;
-            this->label19->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 19.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-                static_cast<System::Byte>(204)));
-            this->label19->ForeColor = System::Drawing::Color::Blue;
-            this->label19->Location = System::Drawing::Point(267, 118);
-            this->label19->Name = L"label19";
-            this->label19->Size = System::Drawing::Size(101, 38);
-            this->label19->TabIndex = 42;
-            this->label19->Text = L"Login";
-            // 
             // MyForm1
             // 
             this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
             this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
             this->BackColor = System::Drawing::Color::LightSteelBlue;
             this->ClientSize = System::Drawing::Size(1924, 1055);
-            this->Controls->Add(this->label19);
             this->Controls->Add(this->tabControl1);
             this->Controls->Add(this->button1);
             this->Margin = System::Windows::Forms::Padding(4);
@@ -714,7 +699,6 @@ namespace Kundalicom {
             this->tabPage3->ResumeLayout(false);
             this->tabPage3->PerformLayout();
             this->ResumeLayout(false);
-            this->PerformLayout();
 
         }
 #pragma endregion
