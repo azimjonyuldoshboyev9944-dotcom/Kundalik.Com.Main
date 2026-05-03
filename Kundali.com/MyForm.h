@@ -48,6 +48,7 @@ namespace Kundalicom {
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
 
 
+
 	protected:
 
 	protected:
@@ -198,9 +199,9 @@ namespace Kundalicom {
 			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->Location = System::Drawing::Point(618, 220);
+			this->pictureBox1->Location = System::Drawing::Point(644, 297);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(417, 244);
+			this->pictureBox1->Size = System::Drawing::Size(433, 315);
 			this->pictureBox1->TabIndex = 11;
 			this->pictureBox1->TabStop = false;
 			// 
