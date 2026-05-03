@@ -1,0 +1,6 @@
+F:\Users\nout.plus\source\repos\Kundali.com\Kundali.com\x64\Debug\Kundali.com.vcxproj.AssemblyReference.cache
+F:\Users\nout.plus\source\repos\Kundali.com\Kundali.com\x64\Debug\Kundalicom.MyForm.resources
+F:\Users\nout.plus\source\repos\Kundali.com\Kundali.com\x64\Debug\Kundali.com.vcxproj.GenerateResource.cache
+F:\Users\nout.plus\source\repos\Kundali.com\Kundali.com\x64\Debug\Kundalicom.MyForm1.resources
+F:\Users\nout.plus\source\repos\Kundali.com\Kundali.com\x64\Debug\Kundalicom.MyForm2.resources
+F:\Users\nout.plus\source\repos\Kundali.com\Kundali.com\x64\Debug\Kundalicom.MyForm3.resources
