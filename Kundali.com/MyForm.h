@@ -45,6 +45,7 @@ namespace Kundalicom {
 	private: System::Windows::Forms::Button^ button4;
 	private: System::Windows::Forms::MaskedTextBox^ maskedTextBox1;
 	private: System::Windows::Forms::MaskedTextBox^ maskedTextBox2;
+	private: System::Windows::Forms::PictureBox^ pictureBox1;
 
 
 	protected:
@@ -74,6 +75,8 @@ namespace Kundalicom {
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->maskedTextBox1 = (gcnew System::Windows::Forms::MaskedTextBox());
 			this->maskedTextBox2 = (gcnew System::Windows::Forms::MaskedTextBox());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// button1
@@ -193,6 +196,14 @@ namespace Kundalicom {
 			this->maskedTextBox2->Size = System::Drawing::Size(447, 61);
 			this->maskedTextBox2->TabIndex = 10;
 			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->Location = System::Drawing::Point(618, 220);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(417, 244);
+			this->pictureBox1->TabIndex = 11;
+			this->pictureBox1->TabStop = false;
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -201,6 +212,7 @@ namespace Kundalicom {
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1924, 1055);
+			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->maskedTextBox2);
 			this->Controls->Add(this->maskedTextBox1);
 			this->Controls->Add(this->button4);
@@ -216,6 +228,7 @@ namespace Kundalicom {
 			this->Text = L"MyForm";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
