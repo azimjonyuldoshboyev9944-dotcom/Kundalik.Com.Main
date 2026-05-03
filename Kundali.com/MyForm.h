@@ -49,6 +49,7 @@ namespace Kundalicom {
 
 
 
+
 	protected:
 
 	protected:
@@ -199,9 +200,9 @@ namespace Kundalicom {
 			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->Location = System::Drawing::Point(644, 297);
+			this->pictureBox1->Location = System::Drawing::Point(615, 305);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(433, 315);
+			this->pictureBox1->Size = System::Drawing::Size(100, 50);
 			this->pictureBox1->TabIndex = 11;
 			this->pictureBox1->TabStop = false;
 			// 
